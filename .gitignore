@@ -1,0 +1,4 @@
+.*.sw*
+/in/
+/out/
+/config.sh

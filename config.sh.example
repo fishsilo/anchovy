@@ -1,0 +1,5 @@
+#!/usr/bin/false
+
+VENDOR="bar@foo.example"
+MAINTAINER="baz@foo.example"
+

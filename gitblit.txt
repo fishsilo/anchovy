@@ -1,0 +1,1 @@
+An open-source, pure Java stack for managing, viewing, and serving Git repositories
