@@ -1,4 +1,9 @@
 .*.sw*
-/in/
-/out/
 /config.sh
+*.deb
+*.rpm
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz

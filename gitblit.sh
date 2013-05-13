@@ -32,9 +32,7 @@ for i in $SOURCES; do
   take "$i"
 done
 
-chmod a+x "$PACKDIR/gitblit"
-
-set_shebang "$PACKDIR/gitblit" "/usr/bin/env bash"
+cp -a "$INDIR/gitblit" "$PACKDIR/gitblit"
 
 pack
 

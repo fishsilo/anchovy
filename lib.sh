@@ -6,6 +6,12 @@ ROOTDIR="$PWD"
 INDIR="$PWD/in"
 OUTDIR="$PWD/out"
 
+if uname -s | grep -qi darwin; then
+  function sed {
+    gsed "$@"
+  }
+fi
+
 function init {
   WORKDIR="$(mktemp -d -t anchovy)"
 }
